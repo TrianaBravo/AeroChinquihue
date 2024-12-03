@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aerochinquihue.controlador.Login_controlador">
+   <children>
+      <Button fx:id="button_asistente" layoutX="367.0" layoutY="202.0" mnemonicParsing="false" onAction="#button_asistente_handle" prefHeight="75.0" prefWidth="126.0" text="Asisistente" />
+      <Button fx:id="button_gerente" layoutX="118.0" layoutY="202.0" mnemonicParsing="false" onAction="#button_gerente_handle" prefHeight="75.0" prefWidth="135.0" text="Gerente" />
+   </children>
+</Pane>
